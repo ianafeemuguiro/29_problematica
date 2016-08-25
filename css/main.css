@@ -1,10 +1,13 @@
 
 body {
-  font-family: Georgia, serif;
-  font-size: 17px;
-  font-style: normal;
-  background: #0080FF;
-  -webkit-font-smoothing: antialiased;
+  	font-family: Georgia, serif;
+  	font-size: 17px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+    height: 1500px;
+    background: -webkit-linear-gradient(#A9D0F5, #013ADF); /*For Safari*/
+    background: -moz-linear-gradient(#A9D0F5, #013ADF); /*For Firefox*/
+    background: linear-gradient(#A9D0F5, #013ADF); /* Standard syntax  */
 }
 
 .navbar-brand{
@@ -46,10 +49,47 @@ nav.navbar{ /*Fondo del nav bar*/
  color: black; background-color: none;
 }
 
+/*Textos*/
+
+.control-text{
+	margin-top: 15%;
+}
+
 .text1{
 	background-color: white;
-	margin-top: 20%;
+	margin-top: 5%;
 	font-size: 25px;
 	color:  #0080FF;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+
+/*Iconos*/
+.icons{
+	font-size: 40px;
+    color: white;
+    margin-left:5%;
+    margin-top: 40%;
+}
+	
+
+h3{
+	color: white;
+    text-shadow: 1px 1px 4px #000000;
+    font-family: 'Courgette';
+}
+
+h4{
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+	width: 100%;
+	margin-top: 30%;
+}
+
+p{
+	color:white;
 	font-family: Arial, Helvetica, sans-serif;
 }
