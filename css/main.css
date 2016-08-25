@@ -1,0 +1,55 @@
+
+body {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-style: normal;
+  background: #0080FF;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-brand{
+	font-family: 'Courgette';
+  	font-size: 40px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+}
+
+iframe{
+	margin-top: 20%;
+}
+
+/*Navbar-fuente*/
+
+nav.navbar{ /*Fondo del nav bar*/ 
+	background-color: transparent; border: 0;
+} 
+
+.navbar-default .navbar-brand {/*Color del titulo*/ 
+	color:  #0080FF; font-size: 200%;
+} 
+
+.navbar-default .navbar-nav > li > a { /*Color de links*/ 
+	color: blue; 
+} 
+
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/ 
+.navbar-default .navbar-nav > li > a:focus { 
+	color: black; 
+} 
+
+.navbar-default .navbar-nav > 
+.active > a, /*Fondo de links puntero sobre ellos*/ 
+.navbar-default .navbar-nav > 
+.active > a:hover, 
+.navbar-default .navbar-nav > 
+.active > a:focus {
+ color: black; background-color: none;
+}
+
+.text1{
+	background-color: white;
+	margin-top: 20%;
+	font-size: 25px;
+	color:  #0080FF;
+	font-family: Arial, Helvetica, sans-serif;
+}
